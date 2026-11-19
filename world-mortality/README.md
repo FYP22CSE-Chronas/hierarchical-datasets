@@ -1,6 +1,6 @@
 # World Mortality — All-Cause Deaths
 
-Monthly all-cause mortality, Jan 2015 – Dec 2024.
+Monthly all-cause mortality across 128 countries, Jan 2015 – Dec 2024.
 
 Source: https://github.com/akarlinsky/world_mortality
 
@@ -50,6 +50,12 @@ Total → Continent (6) → Country (128)
 | Countries |
 |---|
 | Argentina, Bolivia, Brazil, Chile, Colombia, Ecuador, French Guiana, Paraguay, Peru, Suriname, Uruguay |
+
+## Data Processing & Imputation Notes
+
+- **Weekly-to-Monthly:** 52 ISO weekly countries converted via daily apportionment ($1/7$ per day).
+- **Seasonal Imputation:** Missing periods across 38 countries filled via seasonal median decomposition.
+- **Boundary Cutoffs:** Cutoff months with < 20 days imputed to prevent partial-month dips.
 
 ## Files
 

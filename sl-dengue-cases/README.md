@@ -43,6 +43,11 @@ Total → Climatic Zone (3) → Province (12) → District (25)
 | North Western (2) | Kurunegala, Puttalam |
 | Uva (1) | Badulla |
 
+## Data Processing & Imputation Notes
+
+- **Monaragala Gap:** Aug 2019 – Dec 2020 reporting blackout filled via weekly seasonal median decomposition.
+- **War-Era Lag (2006–2009):** Northern districts (Kilinochchi, Mullaitivu, Jaffna) backcast using post-war seasonal baseline.
+
 ## Files
 
 `data.csv` — 991 × 41

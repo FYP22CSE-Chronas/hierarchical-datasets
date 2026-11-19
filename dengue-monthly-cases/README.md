@@ -27,10 +27,15 @@ Total → Province (9) → District (25)
 | Uva Province | Badulla, Monaragala |
 | Sabaragamuwa Province | Ratnapura, Kegalle |
 
+## Data Processing & Imputation Notes
+
+- **Monaragala Gap:** Sep 2019 – Dec 2020 reporting blackout filled via seasonal median decomposition.
+- **Northern Baseline:** Jan – Apr 2010 leading zeros in Kilinochchi and Mullaitivu imputed to match district seasonality.
+
 ## Files
 
 `data.csv` — 132 × 35
-- Rows: months, unnamed index
+- Rows: months, date index (YYYY-MM-DD), Jan 2010 – Dec 2020
 - Columns: stringified paths, e.g. `['Colombo', 'Western Province']`, `['Total']`
 
 `agg_mat.csv` — 35 × 25
