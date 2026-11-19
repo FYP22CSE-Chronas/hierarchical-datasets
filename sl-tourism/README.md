@@ -62,10 +62,18 @@ Total → Continent (6) → Region (16) → Country (200)
 |---|---|
 | Oceania (15) | Australia, Fiji, Guam, Kiribati, Marshall Islands, Micronesia, Nauru, New Zealand, Palau, Papua New Guinea, Samoa, Solomon Islands, Tonga, Tuvalu, Vanuatu |
 
+## Key Events & Data Notes
+
+- **Easter Attacks (Apr 2019):** Severe arrivals slump following hotel and church bombings.
+- **COVID-19 Border Closure (Apr – Nov 2020):** Total arrivals = 0 due to nationwide commercial airport shutdown.
+- **Pilot Bio-Bubble (Dec 2020):** Limited reopening with 393 Ukrainian charter tourist arrivals.
+- **Economic Crisis (2022):** Fuel and power shortages caused a temporary recovery dip.
+- **Micro-Market Zeros:** Remote island states (e.g. Nauru, Vatican) legitimately record 0 arrivals in most months.
+
 ## Files
 
 `data.csv` — 101 × 223
-- Rows: months, unnamed index
+- Rows: months, date index (`YYYY-MM-DD`), Jan 2018 – May 2026
 - Columns: stringified paths, e.g. `['India', 'South Asia', 'Asia']`, `['Total']`
 
 `agg_mat.csv` — 223 × 200

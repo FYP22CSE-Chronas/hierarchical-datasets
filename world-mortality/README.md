@@ -51,8 +51,10 @@ Total → Continent (6) → Country (128)
 |---|
 | Argentina, Bolivia, Brazil, Chile, Colombia, Ecuador, French Guiana, Paraguay, Peru, Suriname, Uruguay |
 
-## Data Processing & Imputation Notes
+## Key Events & Data Notes
 
+- **COVID-19 Pandemic (2020–2022):** Global mortality surges with peak excess deaths in 2020–2021 (Alpha/Delta waves).
+- **Post-Pandemic Normalization (2023–2024):** Stabilized back towards pre-pandemic demographic levels.
 - **Weekly-to-Monthly:** 52 ISO weekly countries converted via daily apportionment ($1/7$ per day).
 - **Seasonal Imputation:** Missing periods across 38 countries filled via seasonal median decomposition.
 - **Boundary Cutoffs:** Cutoff months with < 20 days imputed to prevent partial-month dips.

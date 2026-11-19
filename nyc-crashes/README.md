@@ -45,6 +45,12 @@ Total → Borough (5) → ZIP Code (228)
 |---|
 | 10301, 10302, 10304, 10305, 10306, 10307, 10308, 10309, 10310, 10312, 10314 |
 
+## Key Events & Data Notes
+
+- **Post-COVID Traffic Shifts:** Commuter travel adjustments and hybrid work policies established new baseline crash volumes.
+- **Severe Weather Dips:** Winter blizzards and extreme rainfall produce sharp single-day collision drops citywide.
+- **Micro-ZIP Sparsity:** Low-traffic commercial ZIPs (e.g., individual office towers in Manhattan) naturally have zero-crash days.
+
 ## Files
 
 `data.csv` — 1500 × 234

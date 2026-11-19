@@ -27,6 +27,12 @@ Total → Province (9) → District (25)
 | Uva Province | Badulla, Monaragala |
 | Sabaragamuwa Province | Ratnapura, Kegalle |
 
+## Key Events & Data Notes
+
+- **Wave 1 & Spread Lag (Apr – Jul 2020):** Cases centered in Colombo/Gampaha; rural northern districts stayed at 0 until late 2020.
+- **Minuwangoda / Peliyagoda Cluster (Oct 2020):** Factory cluster sparked nationwide community transmission.
+- **New Year Surge (Apr – May 2021):** Alpha/Delta variant spread caused exponential daily growth.
+
 ## Files
 
 `data.csv` — 412 × 35

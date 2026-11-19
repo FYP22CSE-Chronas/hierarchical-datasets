@@ -27,6 +27,11 @@ Total → Province (9) → District (25)
 | Uva Province | Badulla, Monaragala |
 | Sabaragamuwa Province | Ratnapura, Kegalle |
 
+## Key Events & Data Notes
+
+- **Monsoon Cycles:** Biannual transmission peaks during Southwest (May–Aug) and Northeast (Oct–Jan) monsoon rains.
+- **Dry-Season Zeros:** Intermittent zero-case weeks occur naturally in small, dry, or high-altitude districts.
+
 ## Files
 
 `data.csv` — 90 × 35

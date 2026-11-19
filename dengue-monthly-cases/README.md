@@ -27,10 +27,12 @@ Total → Province (9) → District (25)
 | Uva Province | Badulla, Monaragala |
 | Sabaragamuwa Province | Ratnapura, Kegalle |
 
-## Data Processing & Imputation Notes
+## Key Events & Data Notes
 
+- **2017 Mega-Epidemic:** Historic national peak (>186,000 cases) driven by DENV-2 strain.
+- **COVID-19 Curfews (2020):** Lockdowns reduced public mosquito exposure and reporting rates.
 - **Monaragala Gap:** Sep 2019 – Dec 2020 reporting blackout filled via seasonal median decomposition.
-- **Northern Baseline:** Jan – Apr 2010 leading zeros in Kilinochchi and Mullaitivu imputed to match district seasonality.
+- **Northern Baseline:** Jan – Apr 2010 leading zeros in Kilinochchi and Mullaitivu imputed.
 
 ## Files
 

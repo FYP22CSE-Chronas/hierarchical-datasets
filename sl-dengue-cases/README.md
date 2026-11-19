@@ -43,10 +43,12 @@ Total → Climatic Zone (3) → Province (12) → District (25)
 | North Western (2) | Kurunegala, Puttalam |
 | Uva (1) | Badulla |
 
-## Data Processing & Imputation Notes
+## Key Events & Data Notes
 
-- **Monaragala Gap:** Aug 2019 – Dec 2020 reporting blackout filled via weekly seasonal median decomposition.
-- **War-Era Lag (2006–2009):** Northern districts (Kilinochchi, Mullaitivu, Jaffna) backcast using post-war seasonal baseline.
+- **Civil War Disruptions (2006–2009):** Northern reporting lags backcast using post-war seasonal baseline.
+- **2017 Dengue Epidemic:** Record nationwide weekly transmission peak.
+- **COVID-19 Curfews (2020):** Lockdowns lowered public mosquito exposure and reporting rates.
+- **Monaragala Gap:** Aug 2019 – Dec 2020 reporting blackout filled via weekly seasonal decomposition.
 
 ## Files
 
