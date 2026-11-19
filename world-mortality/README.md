@@ -6,58 +6,58 @@ Source: https://github.com/akarlinsky/world_mortality
 
 ## Hierarchy
 
-Total → Continent (6) → Country (76)
+Total → Continent (6) → Country (128)
 
 - Total: 1
 - Continent: 6
-- Country: 76
-- Series: 83
+- Country: 128
+- Series: 135
 
 ## Mapping
 
-### Africa — 8 countries
+### Africa — 11 countries
 
 | Countries |
 |---|
-| Algeria, Botswana, Cabo Verde, Egypt, Mauritius, Namibia, Seychelles, Tunisia |
+| Algeria, Botswana, Cabo Verde, Egypt, Mauritius, Mayotte, Namibia, Réunion, Seychelles, South Africa, Tunisia |
 
-### Asia — 25 countries
-
-| Countries |
-|---|
-| Azerbaijan, Bhutan, Brunei, Hong Kong, Japan, Jordan, Kazakhstan, Kuwait, Kyrgyzstan, Lebanon, Macao, Malaysia, Maldives, Mongolia, Oman, Palestine, Philippines, Qatar, Singapore, Taiwan, Tajikistan, Thailand, Turkey, United Arab Emirates, Uzbekistan |
-
-### Europe — 18 countries
+### Asia — 29 countries
 
 | Countries |
 |---|
-| Albania, Andorra, Armenia, Belarus, Bosnia, Faroe Islands, Georgia, Gibraltar, Kosovo, Liechtenstein, Moldova, Monaco, North Macedonia, Russia, San Marino, Serbia, Transnistria, Ukraine |
+| Azerbaijan, Bhutan, Brunei, Cyprus, Hong Kong, Iran, Israel, Japan, Jordan, Kazakhstan, Kuwait, Kyrgyzstan, Lebanon, Macao, Malaysia, Maldives, Mongolia, Oman, Palestine, Philippines, Qatar, Singapore, South Korea, Taiwan, Tajikistan, Thailand, Turkey, United Arab Emirates, Uzbekistan |
 
-### North America — 16 countries
-
-| Countries |
-|---|
-| Antigua and Barbuda, Aruba, Bahamas, Barbados, Belize, Bermuda, Costa Rica, Cuba, Dominican Republic, El Salvador, Greenland, Jamaica, Nicaragua, Panama, Saint Kitts and Nevis, Saint Vincent and the Grenadines |
-
-### Oceania — 3 countries
+### Europe — 49 countries
 
 | Countries |
 |---|
-| Fiji, French Polynesia, New Caledonia |
+| Albania, Andorra, Armenia, Austria, Belarus, Belgium, Bosnia, Bulgaria, Croatia, Czechia, Denmark, Estonia, Faroe Islands, Finland, France, Georgia, Germany, Gibraltar, Greece, Hungary, Iceland, Ireland, Italy, Kosovo, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Monaco, Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal, Romania, Russia, San Marino, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Transnistria, Ukraine, United Kingdom |
 
-### South America — 6 countries
+### North America — 23 countries
 
 | Countries |
 |---|
-| Argentina, Bolivia, Brazil, Paraguay, Suriname, Uruguay |
+| Antigua and Barbuda, Aruba, Bahamas, Barbados, Belize, Bermuda, Canada, Costa Rica, Cuba, Dominican Republic, El Salvador, Greenland, Guadeloupe, Guatemala, Jamaica, Martinique, Mexico, Nicaragua, Panama, Puerto Rico, Saint Kitts and Nevis, Saint Vincent and the Grenadines, United States |
+
+### Oceania — 5 countries
+
+| Countries |
+|---|
+| Australia, Fiji, French Polynesia, New Caledonia, New Zealand |
+
+### South America — 11 countries
+
+| Countries |
+|---|
+| Argentina, Bolivia, Brazil, Chile, Colombia, Ecuador, French Guiana, Paraguay, Peru, Suriname, Uruguay |
 
 ## Files
 
-`data.csv` — 120 × 83
+`data.csv` — 120 × 135
 - Rows: months, date index (YYYY-MM-DD), 2015-01-01 to 2024-12-01
 - Columns: stringified paths, e.g. `['Japan', 'Asia']`, `['Asia']`, `['Total']`
 
-`agg_mat.csv` — 83 × 76
+`agg_mat.csv` — 135 × 128
 - Rows = `data.csv` columns, same order
-- Columns = 76 country series
+- Columns = 128 country series
 - Total row: all ones; continent rows: 1 for member countries; identity block for countries
