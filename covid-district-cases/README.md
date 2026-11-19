@@ -2,6 +2,8 @@
 
 Daily cumulative confirmed COVID-19 cases by district, 1 Apr 2020 – 18 May 2021.
 
+Source: https://www.kaggle.com/datasets/asheniranga/sri-lanka-covid19-dataset
+
 ## Hierarchy
 
 Total → Province (9) → District (25)

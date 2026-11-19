@@ -2,6 +2,8 @@
 
 Weekly dengue cases, 2025 W01 – 2026 W45.
 
+Source: https://www.epid.gov.lk/weekly-epidemiological-report/weekly-epidemiological-report
+
 ## Hierarchy
 
 Total → Province (9) → District (25)

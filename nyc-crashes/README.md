@@ -2,6 +2,8 @@
 
 Daily motor vehicle collisions by borough and ZIP code, 8 Oct 2022 – 15 Nov 2026.
 
+Source: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95
+
 ## Hierarchy
 
 Total → Borough (5) → ZIP Code (228)

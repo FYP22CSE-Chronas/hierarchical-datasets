@@ -2,6 +2,8 @@
 
 Monthly deaths by sex and age group, Jan 2005 – Dec 2015.
 
+Source: https://catalog.data.gov/dataset/cdc-wonder-mortality-multiple-cause-of-death
+
 ## Hierarchy
 
 Total → Sex (2) → Age Group (11)

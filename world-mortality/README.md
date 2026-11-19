@@ -2,6 +2,8 @@
 
 Monthly all-cause mortality, Jan 2015 – Dec 2024.
 
+Source: https://github.com/akarlinsky/world_mortality
+
 ## Hierarchy
 
 Total → Continent (6) → Country (76)
