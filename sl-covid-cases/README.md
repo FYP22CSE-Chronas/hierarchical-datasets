@@ -1,6 +1,6 @@
 # COVID-19 Cases — Sri Lanka
 
-Daily cumulative confirmed COVID-19 cases by district, 1 Apr 2020 – 18 May 2021.
+Daily new confirmed COVID-19 cases by district, 2 Apr 2020 – 18 May 2021.
 
 Source: https://www.kaggle.com/datasets/asheniranga/sri-lanka-covid19-dataset
 
@@ -30,13 +30,14 @@ Total → Province (9) → District (25)
 ## Key Events & Data Notes
 
 - **Wave 1 & Spread Lag (Apr – Jul 2020):** Cases centered in Colombo/Gampaha; rural northern districts stayed at 0 until late 2020.
-- **Minuwangoda / Peliyagoda Cluster (Oct 2020):** Factory cluster sparked nationwide community transmission.
-- **New Year Surge (Apr – May 2021):** Alpha/Delta variant spread caused exponential daily growth.
+- **Minuwangoda / Peliyagoda Cluster (Oct 2020):** Factory cluster sparked nationwide community transmission; historical backlog integrated on 14 Nov 2020.
+- **New Year Surge (Apr – May 2021):** Alpha/Delta variant spread caused exponential daily growth (>2,000 cases/day).
+- **Incident Daily Cases:** Derived from cumulative totals via daily differencing; minor clerical reporting glitches corrected.
 
 ## Files
 
-`data.csv` — 412 × 35
-- Rows: days, unnamed index, `YYYY-MM-DD`
+`data.csv` — 411 × 35
+- Rows: days, date index (`YYYY-MM-DD`), 2020-04-02 to 2021-05-18
 - Columns: stringified paths, e.g. `['Colombo', 'Western Province']`, `['Total']`
 
 `agg_mat.csv` — 35 × 25
