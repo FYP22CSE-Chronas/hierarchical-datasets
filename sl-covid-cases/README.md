@@ -30,9 +30,10 @@ Total → Province (9) → District (25)
 ## Key Events & Data Notes
 
 - **Wave 1 & Spread Lag (Apr – Jul 2020):** Cases centered in Colombo/Gampaha; rural northern districts stayed at 0 until late 2020.
-- **Minuwangoda / Peliyagoda Cluster (Oct 2020):** Factory cluster sparked nationwide community transmission; historical backlog integrated on 14 Nov 2020.
+- **Minuwangoda / Peliyagoda Cluster (Oct 2020):** Factory outbreak ignited nationwide community transmission.
 - **New Year Surge (Apr – May 2021):** Alpha/Delta variant spread caused exponential daily growth (>2,000 cases/day).
-- **Incident Daily Cases:** Derived from cumulative totals via daily differencing; minor clerical reporting glitches corrected.
+- **Temporal Disaggregation (Apr – 14 Nov 2020):** Pre-November gap reconstructed using Johns Hopkins University (JHU) national daily series apportioned by confirmed district outbreak shares.
+- **Incident Daily Cases:** Monotonically reconciled daily counts; 0 NaNs, 0 negative values.
 
 ## Files
 
