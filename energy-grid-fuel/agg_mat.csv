@@ -1,0 +1,17 @@
+,"['Wind (Transmission)', 'Clean & Renewable']","['Wind (Embedded)', 'Clean & Renewable']","['Solar PV', 'Clean & Renewable']","['Hydroelectric', 'Clean & Renewable']","['Biomass', 'Clean & Renewable']","['Nuclear', 'Nuclear Generation']","['Natural Gas', 'Fossil Fuels']","['Coal', 'Fossil Fuels']","['Interconnector Imports', 'Balancing & Storage']","['Pumped Storage', 'Balancing & Storage']","['Other Flex', 'Balancing & Storage']"
+['Total Generation'],1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+['Clean & Renewable'],1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+['Nuclear Generation'],0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+['Fossil Fuels'],0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+['Balancing & Storage'],0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0
+"['Wind (Transmission)', 'Clean & Renewable']",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"['Wind (Embedded)', 'Clean & Renewable']",0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"['Solar PV', 'Clean & Renewable']",0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"['Hydroelectric', 'Clean & Renewable']",0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"['Biomass', 'Clean & Renewable']",0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+"['Nuclear', 'Nuclear Generation']",0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+"['Natural Gas', 'Fossil Fuels']",0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"['Coal', 'Fossil Fuels']",0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+"['Interconnector Imports', 'Balancing & Storage']",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+"['Pumped Storage', 'Balancing & Storage']",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+"['Other Flex', 'Balancing & Storage']",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0

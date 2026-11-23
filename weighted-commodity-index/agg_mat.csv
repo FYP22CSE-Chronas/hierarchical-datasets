@@ -1,0 +1,14 @@
+,"['Crude Oil', 'Energy']","['Brent Crude', 'Energy']","['Natural Gas', 'Energy']","['Gold', 'Metals']","['Silver', 'Metals']","['Copper', 'Metals']","['Corn', 'Agriculture']","['Wheat', 'Agriculture']","['Soybeans', 'Agriculture']"
+['Global Commodity Index'],0.225,0.135,0.09,0.175,0.07,0.105,0.08,0.07,0.05
+['Energy'],0.5,0.3,0.2,0.0,0.0,0.0,0.0,0.0,0.0
+['Metals'],0.0,0.0,0.0,0.5,0.2,0.3,0.0,0.0,0.0
+['Agriculture'],0.0,0.0,0.0,0.0,0.0,0.0,0.4,0.35,0.25
+"['Crude Oil', 'Energy']",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"['Brent Crude', 'Energy']",0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"['Natural Gas', 'Energy']",0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+"['Gold', 'Metals']",0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+"['Silver', 'Metals']",0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"['Copper', 'Metals']",0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+"['Corn', 'Agriculture']",0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+"['Wheat', 'Agriculture']",0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+"['Soybeans', 'Agriculture']",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
